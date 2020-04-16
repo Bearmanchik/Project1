@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplicationActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textview" />
+
+                <EditText
+                    android:id="@+id/edt1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="number"
+                    android:text="@string/edin" />
+
+                <EditText
+                    android:id="@+id/edt2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="number"
+                    android:text="@string/edin" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:text="@string/button1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textV2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textviewB" />
+
+                <EditText
+                    android:id="@+id/edt21"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="number"
+                    android:text="@string/edin" />
+
+                <EditText
+                    android:id="@+id/edt22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="number"
+                    android:text="@string/edin" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    android:text="@string/button1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="visible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" tools:targetApi="o" />
+
+                <EditText
+                    android:id="@+id/edtA2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtA22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtA32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:visibility="invisible"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:visibility="invisible"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutA6"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtA61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtA62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtA66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="visible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtB22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtB52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutB6"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="100dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/edtB61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll"/>
+
+                <EditText
+                    android:id="@+id/edtB62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+                <EditText
+                    android:id="@+id/edtB66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:selectAllOnFocus="true"
+                    android:visibility="invisible"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="@string/noll" />
+
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/edtAns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:textSize="20sp" />
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/btnAns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/butret"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="return" />
+
+
+</android.support.constraint.ConstraintLayout>
