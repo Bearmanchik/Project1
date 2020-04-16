@@ -11,5 +11,5 @@
 
 4) [Треугольная факторизация](https://github.com/Bearmanchik/Project1/blob/master/myapplication/TrungActivity.java)
 
-Ссылка на код - [ссылка](https://yadi.sk/d/aZBp7irS3wUB9A)
+Ссылка на скачивание всех пакетов прогрыммы - [ссылка](https://yadi.sk/d/aZBp7irS3wUB9A)
 
