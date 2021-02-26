@@ -13,3 +13,5 @@
 
 Ссылка на скачивание всех пакетов прогрыммы - [ссылка](https://yadi.sk/d/aZBp7irS3wUB9A)
 
+Cсылка на регистрцию программы - [ссылка](https://www1.fips.ru/registers-doc-view/fips_servlet?DB=EVM&DocNumber=2021612179&TypeFile=html)
+
